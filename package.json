@@ -1,19 +1,19 @@
 {
   "name": "markdown-it-contained-image",
-  "version": "0.1.0",
-  "description": "Wikipedia-style relative links.",
+  "version": "1.0.0",
+  "description": "Plugin for creating images nested in HTML elements for markdown-it markdown parser.",
   "keywords": [
     "markdown-it-plugin",
     "markdown-it",
     "markdown"
   ],
-  "homepage": "https://github.com/bancaditalia/markdown-it-contained-image",
+  "homepage": "https://github.com/andreagentili/markdown-it-contained-image",
   "repository": {
     "type": "git",
-    "url": "git@github.com:bancaditalia/markdown-it-contained-image.git"
+    "url": "git@github.com:andreagentili/markdown-it-contained-image.git"
   },
   "bugs": {
-    "url": "https://github.com/bancaditalia/markdown-it-contained-image/issues"
+    "url": "https://github.com/andreagentili/markdown-it-contained-image/issues"
   },
   "license": "MIT",
   "main": "index.js",

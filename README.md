@@ -1,7 +1,6 @@
-# markdown-it-contained-images
+# markdown-it-contained-image
 
-Wikipedia-style relative links.
-`[[link|name]]` => `<a href="http://myprefix/link">name</a>`
+> Plugin for creating images nested in HTML elements for [markdown-it](https://github.com/markdown-it/markdown-it) markdown parser.
 
 Derived from https://github.com/hhhonzik/markdown-it-relativelink.
 
@@ -10,20 +9,18 @@ Derived from https://github.com/hhhonzik/markdown-it-relativelink.
 node.js, browser:
 
 ```sh
-npm install markdown-it-contained-images --save
-bower install markdown-it-contained-images --save
+npm install markdown-it-contained-image --save
+bower install markdown-it-contained-image --save
 ```
 
 ## Use
 
 ```js
 var MarkdownIt = require('markdown-it');
-var mdIinternalLinks = require('markdown-it-contained-images');
+var MarkdownItContainedImages = require('markdown-it-contained-image');
 
 var md = new MarkdownIt();
-md.use(mdIinternalLinks({
-  prefix: 'http://example.com/'
-}));
+md.use(MarkdownItContainedImages());
 
-md.render('[[link|name]]') // => '<a href="http://example.com/link">name</a>'
+md.render('~[caption](url)|base1,base2|') // => '<p><div class="base1"><div class="base2"><img src="url" alt="caption"></div></div></p>'
 ```
