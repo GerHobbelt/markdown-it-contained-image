@@ -27,3 +27,21 @@
 .
 <p><div class="row align-center"><div class=" column small-12 medium-8 large-6"><img src="@/internships/intern-blue-256.png" alt="alt"></div></div></p>
 .
+
+.
+~[caption](small:url-small,medium:url-medium,large:url-large)
+.
+<p><img data-interchange="[url-small, (small)], [url-medium, (medium)], [url-large, (large)]" alt="caption"></p>
+.
+
+.
+~[caption](small:url-small,small:another-url-small)
+.
+<p><img data-interchange="[url-small, (small)], [another-url-small, (small)]" alt="caption"></p>
+.
+
+.
+~[caption]()
+.
+<p><img src="" alt="caption"></p>
+.
