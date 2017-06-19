@@ -1,0 +1,29 @@
+.
+~[caption](url)
+.
+<p><img src="url" alt="caption"></p>
+.
+
+.
+~[caption](url)|base|
+.
+<p><div class="base"><img src="url" alt="caption"></div></p>
+.
+
+.
+~[caption](url)|base1,base2|
+.
+<p><div class="base1"><div class="base2"><img src="url" alt="caption"></div></div></p>
+.
+
+.
+~[caption](url)|row align-center,column small-12 medium-8 large-6|
+.
+<p><div class="row align-center"><div class="column small-12 medium-8 large-6"><img src="url" alt="caption"></div></div></p>
+.
+
+.
+~[alt](@/internships/intern-blue-256.png)|row align-center, column small-12 medium-8 large-6|
+.
+<p><div class="row align-center"><div class=" column small-12 medium-8 large-6"><img src="@/internships/intern-blue-256.png" alt="alt"></div></div></p>
+.
