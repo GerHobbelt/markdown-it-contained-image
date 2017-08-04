@@ -1,6 +1,6 @@
 {
   "name": "markdown-it-contained-image",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Plugin for creating images nested in HTML elements for markdown-it markdown parser.",
   "keywords": [
     "markdown-it-plugin",
